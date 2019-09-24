@@ -1,0 +1,44 @@
+{
+  "name": "v-busy",
+  "version": "1.0.0",
+  "description": "Show busy/loading indicators on any promise",
+  "main": "index.js",
+  "module": "./src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "busy",
+    "loading",
+    "v-busy",
+    "waiting"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/varit05/v-busy.git"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "author": "varitpatel@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "rollup": "^1.21.4",
+    "rollup-plugin-babel": "^4.3.3"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
